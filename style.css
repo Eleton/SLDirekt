@@ -1,0 +1,36 @@
+body{
+	font-family: arial;
+}
+.infoWindow{
+	border: 1px solid;
+	width: 22em;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #019cd5;
+}
+.infoWindow div{
+	display: flex;
+	justify-content: space-around;
+}
+.infoWindow h1{
+	text-align: center;
+	background-color: #019cd5;
+}
+tr:nth-child(even){
+	background-color: #dde;
+}
+tr:nth-child(odd){
+	background-color: white;
+}
+tr{
+	font-size: 1.5em;
+	height: 1.5em;
+}
+th:first-child {
+	width: 12em;
+	text-align: left;
+	padding-left: 5px;
+}
+th{
+	width: 5em;
+}
